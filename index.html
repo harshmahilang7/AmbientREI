@@ -2,29 +2,6 @@
 <html lang="en-US">
 
 <head>
-   <script>
-    // Overwrite all console functions
-    for (let method of ["log", "warn", "error", "info", "debug"]) {
-        console[method] = function () {};
-    }
-
-    // Suppress runtime JS errors
-    window.onerror = function () {
-        return true;
-    };
-
-    // Suppress unhandled Promise rejections
-    window.addEventListener("unhandledrejection", function (e) {
-        e.preventDefault();
-    });
-
-    // Catch error events from script loading (like CORS issues)
-    window.addEventListener("error", function (e) {
-        e.stopImmediatePropagation();
-        e.preventDefault();
-    }, true);
-</script>
-
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
