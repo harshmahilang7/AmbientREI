@@ -3149,14 +3149,14 @@ body.admin-bar .main-header.ekit-sticky--effects{
 	top: 50%;
 	left: 0;
 	transform: translateY(-50%);
-	background-image: url("assets/images/icon-sub-heading.svg");
+	background-image: url("./light.svg");
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: cover;
 }
 
 .section-title.dark-section .elementor-heading-title::before{
-	background-image: url('assets/images/icon-sub-heading-dark.svg');
+	background-image: url('./dark.svg');
 }
 
 .inclub-hide-small-icon .section-title .elementor-heading-title::before{
