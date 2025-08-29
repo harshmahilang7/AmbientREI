@@ -4573,3 +4573,7 @@ body.admin-bar .main-header.ekit-sticky--effects{
 	}
 	
 }
+
+.btn-wraper .elementskit-btn {
+  display: none;
+}
